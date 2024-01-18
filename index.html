@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iShop index</title>
+</head>
+<body>
+    <header>
+        <div class="search-bar">
+            <i class="search-icon"></i>
+            <input type="text" name="search-query" id="search-query-input">
+        </div>
+    </header>
+    <div class="main-row">
+        <aside class="client-list">
+            <div class="search-bar">
+                <i class="search-icon"></i>
+                <input type="text" name="search-query" id="search-query-input">
+            </div>
+            <ul>
+            </ul>
+        </aside>
+        <main class="site-list">
+            <template id="site-card-template">
+                <div class="card">
+                    <span class="label"></span>
+                    <button class="info-btn">
+                        <i class="info-icon"></i>
+                    </button>
+                    <ul class="links">
+                        <li>
+                            <a class="site-link home-link"></a>
+                        </li>
+                        <li>
+                            <a class="site-link manager-link"> </a>
+                        </li>
+                        <li>
+                            <a class="site-link cpanel-link"></a>
+                        </li>
+                    </ul>
+                </div>
+            </template>
+            <ul>
+            </ul>
+        </main>
+        <aside class="server-list">
+            <template id="server-list-item">
+                <button class="server-list-item">
+                    <span class="label"></span>
+                    <a class="cpanel-link">
+                        <i class="cpanel-icon"></i>
+                    </a>
+                </button>
+            </template>
+            <ul>
+
+            </ul>
+        </aside>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
